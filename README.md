@@ -2,6 +2,9 @@
 
 [![Build Status](https://travis-ci.org/olpotkin/OTUS-CPP-W1-CI.svg?branch=master)](https://travis-ci.org/olpotkin/OTUS-CPP-W1-CI)
 
+## Environment
+- `docker pull ubuntu:trusty`
+
 ## Setup instructions
 - `echo "deb https://dl.bintray.com/olpotkin/OTUS-CPP-COURSE trusty main" | sudo tee -a /etc/apt/sources.list`
 - `apt update && apt install -y helloworld`
